@@ -72,6 +72,17 @@ It definitely has this “eighties” feel to it. And you can see that a Linux s
 
 The question that’s probably on your mind right now is: what’s out there? I mean, what differentiates these gazillion WMs from another?
 
+Broadly speaking, there’s two general types of Window Managers, *Tiling* and *Non Tiling*. Tiling Window Managers also loosely break down into *Manually Tiling* and *Automatic Tiling*.
+
 #+DOWNLOADED: screenshot @ 2019-12-24 18:47:59
 [[file:Musings_on_UIs,_familiarity,_powerusers_and_workflows/2019-12-24_18-47-59_screenshot.png]]
 
+** TODO Explain Tiling
+
+** TODO Explain Manual Tiling (i3)
+
+** TODO Explain Autotiling (bspwm or xmonad)
+
+** TODO Explain why people go through all this
+
+** TODO Explain people switching to Linux or OSX
