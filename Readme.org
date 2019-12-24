@@ -1,4 +1,7 @@
 * Musings on UIs, familiarity, powerusers and workflows
+** What’s this?
+
+It’s a WIP article about different topics that bother me. Please be patient.
 ** Introduction
 
 Let me start with an introduction to what the hell I’m talking about, for /everybody/, not just the hard-core emacs-and-Linux geeks: Graphical user interfaces are based on the concept of a /window/[fn:1]. An application can open zero one or more windows to display stuff to the user. Notepad on Windows, for example, displays one main window to show what you’re editing, and possibly other windows for things like “Save file” dialogs.
