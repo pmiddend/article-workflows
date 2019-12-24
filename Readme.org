@@ -28,7 +28,7 @@ The lesson here is: *creating and managing windows ultimately isn’t controlled
 
 This separate system runs in the background and receives /requests/ by applications. Like “Hey, I’d like a window that’s 300x200 pixels, place it wherever you have space left.”, or “You know that window called ‘print dialog’ I created like, 5 minutes ago? I’m done with that, close it please.”. It also receives requests from other sources, like “The mouse wants to drag this window around - move it!” or “Monitor 2 was just unplugged”.
 
-** The Rift
+** Why Linux exists — Legos
 
 There’s lots of window managers around. Let me break the numbers down a bit, categorizing by operating system:
 
@@ -45,20 +45,24 @@ Okay, so that’s a bit surprising, isn’t it? There seem to be basically one f
 Well, the thing about Linux is, you can’t have just “Linux” installed. I mean, you could. And all your devices, mouse, keyboard, screen, would still work. But there would be no way to use them. That’s because Linux is really just a bunch of drivers, sitting there, getting input from the outside world, being ready for some applications to process that input. However, no applications, no fun.
 
 #+DOWNLOADED: file:///run/user/1000/qutebrowser-DzDfdd/4tRfG.png @ 2019-12-24 18:32:30
+#+CAPTION: Raw, uncooked Linux
 [[file:Musings_on_UIs,_familiarity,_powerusers_and_workflows/2019-12-24_18-32-30_4tRfG.png]]
 
 That’s why every Linux system is like that crate of Legos you had when you were a kid. You get it out, and /ex nihilo/, you build something. A skyscraper, a space station, a piece of toast. The sky’s the limit.
 
 #+DOWNLOADED: file:///run/user/1000/qutebrowser-DzDfdd/really-big-box-legos-including_1_ea68a8106a039133b6bcff71b0879cfc.jpg @ 2019-12-24 18:33:21
+#+CAPTION: Childhood memories
 [[file:Musings_on_UIs,_familiarity,_powerusers_and_workflows/2019-12-24_18-33-21_really-big-box-legos-including_1_ea68a8106a039133b6bcff71b0879cfc.jpg]]
 
 And just like with Legos, you aren’t really /productive/ with them. You just experiment, and from time to time, you build cool stuff out of the components and the experience you have amassed.
 
-So, on top of this bare Linux thingy, people built software to draw pretty pixels with. And later on, they added the ability to run more than one application at the same time. Then, the Linux guys figured they might adopt this concept of windows to visualize all the pixely applications running at the same time.
+So, on top of this bare Linux thingy, people built software to draw pretty pixels with. And later on, they added the ability to run more than one application at the same time. Then, the Linux guys figured they might adopt this concept of “windows” to visualize all the pixely applications running at the same time.
 
 But they were still Lego guys, so they made the system managing these windows (the WM) a Lego block they could swap out and experiment with. One of the first WMs on Linux was “twm”, and it’s still around. Enabling it and starting some applications, this is how it looked:
 
-/screenshot of twm and some windows from Wikipedia/
+#+DOWNLOADED: file:///run/user/1000/qutebrowser-prebub/Twm_en.png @ 2019-12-24 18:40:54
+#+CAPTION: The glory of twm — notice the eye cancer inducing background!
+[[file:Musings_on_UIs,_familiarity,_powerusers_and_workflows/2019-12-24_18-40-54_Twm_en.png]]
 
 It definitely has this “eighties” feel to it. And you can see that a Linux system can look quite different than a Windows or MacOS system (notice the lack of a Start Bar or Dock).
 
@@ -66,5 +70,8 @@ It definitely has this “eighties” feel to it. And you can see that a Linux s
 
 ** The Hierarchy of Window Managers
 
-The question that’s probably on your mind right now is: what’s out there? I mean, what do these gazillion WMs do different?
+The question that’s probably on your mind right now is: what’s out there? I mean, what differentiates these gazillion WMs from another?
+
+#+DOWNLOADED: screenshot @ 2019-12-24 18:47:59
+[[file:Musings_on_UIs,_familiarity,_powerusers_and_workflows/2019-12-24_18-47-59_screenshot.png]]
 
